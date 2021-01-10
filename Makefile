@@ -1,4 +1,4 @@
-REGISTRY?=carolynvs/whalesayd
+REGISTRY?=ghcr.io/carolynvs/whalesayd
 TAG?=v0.1.0
 VERSION=$(REGISTRY):$(TAG)
 LATEST=$(REGISTRY):latest
